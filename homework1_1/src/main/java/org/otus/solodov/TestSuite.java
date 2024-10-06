@@ -1,10 +1,10 @@
-package org.example;
+package org.otus.solodov;
 
-import org.example.annotation.AfterSuite;
-import org.example.annotation.BeforeSuite;
-import org.example.annotation.Disabled;
-import org.example.annotation.Test;
-import org.example.exception.TestExecutionException;
+import org.otus.solodov.annotation.AfterSuite;
+import org.otus.solodov.annotation.BeforeSuite;
+import org.otus.solodov.annotation.Disabled;
+import org.otus.solodov.annotation.Test;
+import org.otus.solodov.exception.TestExecutionException;
 
 public class TestSuite {
     @BeforeSuite

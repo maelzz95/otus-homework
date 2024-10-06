@@ -1,4 +1,4 @@
-package org.example.exception;
+package org.otus.solodov.exception;
 
 public class TestExecutionException extends RuntimeException {
     public TestExecutionException(String errorMessage) {

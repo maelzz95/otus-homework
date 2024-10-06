@@ -1,7 +1,7 @@
-package org.example;
+package org.otus.solodov;
 
-import org.example.annotation.Disabled;
-import org.example.annotation.Test;
+import org.otus.solodov.annotation.Disabled;
+import org.otus.solodov.annotation.Test;
 
 @Disabled(reason = "Disabled test suite")
 public class DisabledTestSuite {

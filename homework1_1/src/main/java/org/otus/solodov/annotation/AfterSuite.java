@@ -1,4 +1,4 @@
-package org.example.annotation;
+package org.otus.solodov.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

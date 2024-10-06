@@ -1,4 +1,4 @@
-package org.example.exception;
+package org.otus.solodov.exception;
 
 public class IncompatibleAnnotationException extends RuntimeException {
     public IncompatibleAnnotationException(String errorMessage) {
