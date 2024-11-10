@@ -9,7 +9,7 @@ import org.otus.solodov.Task.TaskStatus;
 public class TaskUtils {
 
     private static Stream<Task> getTasksByStatus(Stream<Task> taskStream, TaskStatus taskStatus) {
-        return taskStream.filter(task -> task.getStatus().equals(taskStatus));
+        return taskStream.filter(task -> task.getStatus() == taskStatus);
     }
 
     public static List<Task> getTasksByStatus(List<Task> taskList, TaskStatus taskStatus) {
@@ -22,7 +22,7 @@ public class TaskUtils {
 
     public static List<Task> sortTaskListByStatus(List<Task> taskList) {
         return taskList.stream()
-                .sorted(Comparator.comparing(task -> task.getStatus().toString()))
+                .sorted(Comparator.comparing(task -> task.getStatus().name()))
                 .toList();
     }
 
